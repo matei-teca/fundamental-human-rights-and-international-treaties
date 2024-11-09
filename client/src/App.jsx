@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 // import AboutPage from './pages/AboutPage';
-// import TreatiesPage from './pages/TreatiesPage';
+import TreatiesPage from './pages/TreatiesPage';
 // import ResourcesPage from './pages/ResourcesPage';
 // import JoinUsPage from './pages/JoinUsPage';
 
@@ -31,10 +31,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          {/* <Route path="/about" element={<AboutPage />} />
+          {/* <Route path="/about" element={<AboutPage />} /> */}
           <Route path="/treaties" element={<TreatiesPage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
-          <Route path="/join" element={<JoinUsPage />} /> */}
+          {/* <Route path="/resources" element={<ResourcesPage />} /> */}
+          {/* <Route path="/join" element={<JoinUsPage />} /> */}
         </Routes>
       </div>
     </Router>

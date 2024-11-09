@@ -145,24 +145,38 @@
     color: var(--secondary-color);
   }
   
-  /* Light theme button styles */
+/* Enhanced Light/Dark Theme Toggle Button */
 .light-theme-button {
-    background-color: #ffffff; /* White background */
-    color: #1e90ff; /* UN blue text color */
-    padding: 12px 20px;
-    font-size: 1.1em;
-    font-weight: 500;
-    border-radius: 5px;
-    border: 2px solid #1e90ff; /* Border in blue */
+    background-color: #ffffff;
+    color: #1e90ff; /* UN blue icon color */
+    padding: 5px;
+    font-size: 0.5em;
+    font-weight: 600;
+    border-radius: 30px; 
+    border: 2px solid #1e90ff; 
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    position: absolute; /* Fixed position */
+    top: 20px; 
+    right: 20px; 
+    z-index: 9999; 
   }
   
   .light-theme-button:hover {
     background-color: #1e90ff; /* Blue background on hover */
-    color: white; /* White text on hover */
+    color: white; /* White icons on hover */
     border-color: #005a9e; /* Darker blue border on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
   }
+  
+  .light-theme-button:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #005a9e; /* Border color when focused */
+    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.3); /* Glow effect on focus */
+  }
+  
+  
 
   /* Dark Theme */
 .dark-theme {

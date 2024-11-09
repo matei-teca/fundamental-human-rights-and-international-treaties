@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { FaSun, FaMoon } from 'react-icons/fa';  // Import the sun and moon icons
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
@@ -20,12 +21,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* Theme toggle button */}
+        {/* Theme toggle button with icons */}
         <button 
           className="light-theme-button" 
           onClick={() => setIsDarkTheme(prevState => !prevState)}
         >
-          Toggle to {isDarkTheme ? 'Light' : 'Dark'} Theme
+          {isDarkTheme ? <FaSun size={20} /> : <FaMoon size={20} />}
         </button>
 
         <Routes>

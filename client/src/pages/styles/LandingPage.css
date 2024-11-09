@@ -1,0 +1,200 @@
+/* Dark Theme for Landing Page */
+
+:root {
+    /* Dark theme color palette */
+    --primary-color: #1e90ff; /* Bright blue for accents */
+    --secondary-color: #005a9e; /* Darker blue for secondary accents */
+    --background-color: #121212; /* Dark background color */
+    --text-color: #e0e0e0; /* Light gray for text */
+    --header-font: 'Arial', sans-serif;
+    --body-font: 'Verdana', sans-serif;
+  }
+  
+  body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Layout adjustments */
+  .landing-page {
+    padding: 40px;
+    margin: auto;
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid var(--primary-color);
+  }
+  
+  .header h1 {
+    font-family: var(--header-font);
+    font-size: 2.5em;
+    color: var(--primary-color);
+  }
+  
+  .tagline {
+    font-size: 1.3em;
+    color: var(--secondary-color);
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+  }
+  
+  .nav-links a {
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--primary-color);
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+  
+  /* Introduction Section */
+  .intro-section {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .intro-section h2 {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .intro-section p {
+    font-size: 1.1em;
+    margin: 15px 0;
+  }
+  
+  .intro-section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+  }
+  
+  .intro-section li {
+    padding: 5px 0;
+  }
+  
+  /* Featured Links Section */
+  .featured-links {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .featured-links h2 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+  }
+  
+  .link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid var(--primary-color);
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: var(--text-color);
+  }
+  
+  .quick-links a {
+    color: var(--primary-color);
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .quick-links a:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* Light theme button styles */
+.light-theme-button {
+    background-color: #ffffff; /* White background */
+    color: #1e90ff; /* UN blue text color */
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #1e90ff; /* Border in blue */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .light-theme-button:hover {
+    background-color: #1e90ff; /* Blue background on hover */
+    color: white; /* White text on hover */
+    border-color: #005a9e; /* Darker blue border on hover */
+  }
+
+  /* Dark Theme */
+.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  .dark-theme .light-theme-button {
+    background-color: #ffffff;
+    color: #1e90ff;
+  }
+  
+  .dark-theme .light-theme-button:hover {
+    background-color: #1e90ff;
+    color: white;
+    border-color: #005a9e;
+  }
+  
+  /* Light Theme */
+  .light-theme {
+    background-color: #ffffff; /* Light background */
+    color: #333333; /* Dark text */
+  }
+  
+  .light-theme .light-theme-button {
+    background-color: #f0f0f0;
+    color: #1e90ff;
+  }
+  
+  .light-theme .light-theme-button:hover {
+    background-color: #1e90ff;
+    color: white;
+    border-color: #005a9e;
+  }
+  

@@ -8,16 +8,6 @@ function LandingPage() {
   return (
     <div className="landing-page">
       {/* Header Section */}
-      <header className="header">
-        <h1>Fundamental Human Rights and International Treaties</h1>
-        <p className="tagline">Advocating for Global Human Rights Awareness and Education</p>
-        <nav className="nav-links">
-          <Link to="/about">About</Link>
-          <Link to="/treaties">Treaties</Link>
-          <Link to="/resources">Resources</Link>
-          <Link to="/join">Join Us</Link>
-        </nav>
-      </header>
 
       {/* Introduction Section */}
       <section className="intro-section">
@@ -42,16 +32,7 @@ function LandingPage() {
           <Link to="/treaties/rights" className="button">Fundamental Rights</Link>
         </div>
       </section>
-
-      {/* Footer Section */}
-      <footer className="footer">
-        <div className="quick-links">
-          <Link to="/about">About</Link>
-          <Link to="/resources">Resources</Link>
-          <Link to="/join">Join Us</Link>
-        </div>
-        <p>&copy; 2024 Fundamental Human Rights and International Treaties</p>
-      </footer>
+      
     </div>
   );
 }

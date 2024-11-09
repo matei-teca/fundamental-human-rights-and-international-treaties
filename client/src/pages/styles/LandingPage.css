@@ -1,22 +1,6 @@
 /* Dark Theme for Landing Page */
 
-:root {
-    /* Dark theme color palette */
-    --primary-color: #1e90ff; /* Bright blue for accents */
-    --secondary-color: #005a9e; /* Darker blue for secondary accents */
-    --background-color: #121212; /* Dark background color */
-    --text-color: #e0e0e0; /* Light gray for text */
-    --header-font: 'Arial', sans-serif;
-    --body-font: 'Verdana', sans-serif;
-  }
-  
-  body {
-    font-family: var(--body-font);
-    margin: 0;
-    padding: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+
   
   /* Layout adjustments */
   .landing-page {
@@ -145,70 +129,4 @@
     color: var(--secondary-color);
   }
   
-/* Enhanced Light/Dark Theme Toggle Button */
-.light-theme-button {
-    background-color: #ffffff;
-    color: #1e90ff; /* UN blue icon color */
-    padding: 5px;
-    font-size: 0.5em;
-    font-weight: 600;
-    border-radius: 30px; 
-    border: 2px solid #1e90ff; 
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-    position: absolute; /* Fixed position */
-    top: 20px; 
-    right: 20px; 
-    z-index: 9999; 
-  }
-  
-  .light-theme-button:hover {
-    background-color: #1e90ff; /* Blue background on hover */
-    color: white; /* White icons on hover */
-    border-color: #005a9e; /* Darker blue border on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
-  }
-  
-  .light-theme-button:focus {
-    outline: none; /* Remove outline on focus */
-    border-color: #005a9e; /* Border color when focused */
-    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.3); /* Glow effect on focus */
-  }
-  
-  
-
-  /* Dark Theme */
-.dark-theme {
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text */
-  }
-  
-  .dark-theme .light-theme-button {
-    background-color: #ffffff;
-    color: #1e90ff;
-  }
-  
-  .dark-theme .light-theme-button:hover {
-    background-color: #1e90ff;
-    color: white;
-    border-color: #005a9e;
-  }
-  
-  /* Light Theme */
-  .light-theme {
-    background-color: #ffffff; /* Light background */
-    color: #333333; /* Dark text */
-  }
-  
-  .light-theme .light-theme-button {
-    background-color: #f0f0f0;
-    color: #1e90ff;
-  }
-  
-  .light-theme .light-theme-button:hover {
-    background-color: #1e90ff;
-    color: white;
-    border-color: #005a9e;
-  }
   

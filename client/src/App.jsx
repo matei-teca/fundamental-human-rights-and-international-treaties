@@ -16,7 +16,7 @@ import JoinUsPage from './pages/JoinUsPage';
 import './App.css';
 
 function App() {
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   useEffect(() => {
     document.body.classList.toggle('dark-theme', isDarkTheme);

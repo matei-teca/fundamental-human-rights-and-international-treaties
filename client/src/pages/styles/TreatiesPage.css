@@ -80,13 +80,14 @@
 
 /* featured section */
 
-.featured-links {
+.treaties-featured-links {
   text-align: center;
   padding: 40px;
   padding-top: 10px;
+  background-color: black !important;
 }
 
-.featured-links h2 {
+.treaties-featured-links h2 {
   font-size: 1.5em;
   color: var( --secondary-color);
 }

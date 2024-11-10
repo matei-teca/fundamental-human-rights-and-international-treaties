@@ -52,12 +52,13 @@ function TreatiesPage() {
       </section>
 
       {/* Featured Links Section */}
-      <section className="featured-links">
+      <section className="treaties-featured-links">
         <h2>Explore More</h2>
         <div className="link-buttons">
           <Link to="/treaties/timeline" className="button">View Treaties Timeline</Link>
           <Link to="/treaties/accessibility" className="button">Digital Accessibility</Link>
           <Link to="/treaties/rights" className="button">Fundamental Rights</Link>
+          <Link to="/resources" className="button">More Resources</Link>
         </div>
       </section>
 

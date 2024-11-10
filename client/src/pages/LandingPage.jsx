@@ -36,6 +36,7 @@ function LandingPage() {
           <Link to="/treaties/timeline" className="button">View Treaties Timeline</Link>
           <Link to="/treaties/rights" className="button">Fundamental Rights</Link>
           <Link to="/treaties/accessibility" className="button">Digital Accessibility</Link>
+          <Link to="/resources" className="button">More Resources</Link>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/TreatiesPage.css';
 
 function TreatiesPage() {
@@ -49,6 +50,17 @@ function TreatiesPage() {
           View Document
         </a>
       </section>
+
+      {/* Featured Links Section */}
+      <section className="featured-links">
+        <h2>Explore More</h2>
+        <div className="link-buttons">
+          <Link to="/treaties/timeline" className="button">View Treaties Timeline</Link>
+          <Link to="/treaties/accessibility" className="button">Digital Accessibility</Link>
+          <Link to="/treaties/rights" className="button">Fundamental Rights</Link>
+        </div>
+      </section>
+
     </div>
   );
 }

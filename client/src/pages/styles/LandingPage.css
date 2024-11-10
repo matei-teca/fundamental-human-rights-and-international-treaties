@@ -1,7 +1,4 @@
-/* Dark Theme for Landing Page */
 
-
-  
   /* Layout adjustments */
   .landing-page {
     padding: 40px;
@@ -55,7 +52,7 @@
   
   .intro-section h2 {
     font-size: 1.8em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 600;
   }
   
@@ -82,7 +79,7 @@
   
   .featured-links h2 {
     font-size: 1.5em;
-    color: var(--primary-color);
+    color: var( --secondary-color);
   }
   
   .link-buttons {
@@ -94,7 +91,7 @@
   }
   
   .button {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color) !important;
     color: white;
     padding: 12px 20px;
     font-size: 1.1em;

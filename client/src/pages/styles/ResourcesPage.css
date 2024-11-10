@@ -4,6 +4,7 @@
 .resources-page {
   font-family: Arial, sans-serif;
   padding: 20px;
+  padding-inline: 50px;
   animation: fadeIn 1s ease-in-out;
 }
 

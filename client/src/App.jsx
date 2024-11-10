@@ -11,7 +11,7 @@ import TreatiesPage from './pages/TreatiesPage';
 import TimelinePage from './pages/secondary featured/TimelineSecondaryPage';
 import AccessibilityPage from './pages/secondary featured/AccessibilitySecondaryPage';
 import RightsPage from './pages/secondary featured/RigthsSecondaryPage';
-// import ResourcesPage from './pages/ResourcesPage';
+import ResourcesPage from './pages/ResourcesPage';
 import JoinUsPage from './pages/JoinUsPage';
 import './App.css';
 
@@ -45,7 +45,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/treaties" element={<TreatiesPage />} />
-          {/* <Route path="/resources" element={<ResourcesPage />} /> */}
+          <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/join" element={<JoinUsPage />} />
 
           <Route path="/treaties/timeline" element={<TimelinePage />} />

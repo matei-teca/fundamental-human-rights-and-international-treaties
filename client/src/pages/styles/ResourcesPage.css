@@ -1,0 +1,69 @@
+/* ResourcesPage.css */
+
+/* General page styling */
+.resources-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading styling */
+.resources-page h1 {
+  font-size: 2.4em;
+  color: #e3a4ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* General section styling */
+.resource-section {
+  padding: 30px;
+  margin: 30px 0;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Section titles */
+.resource-section h2 {
+  font-size: 1.8em;
+  color: #ff7f50;
+  margin-bottom: 10px;
+}
+
+/* Blockquote styling */
+.resource-section blockquote {
+  font-style: italic;
+  color: #cccccc;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-left: 4px solid #ff7f50;
+  border-radius: 5px;
+}
+
+/* Article list styling */
+.resource-section h3 {
+  font-size: 1.4em;
+  margin-top: 20px;
+  color: #e3a4ff;
+}
+
+.resource-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resource-section li {
+  margin: 8px 0;
+}
+
+.resource-section li a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.resource-section li a:hover {
+  color: #87cefa;
+}

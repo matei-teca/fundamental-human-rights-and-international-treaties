@@ -23,9 +23,9 @@ function LandingPage() {
           Human rights are the cornerstone of a just and equitable society. A truly humane society. Understanding treaties and rights is crucial to defending freedom, justice, peace and international coopeeration.
         </p>
         <ul>
-          <li>International Treaties Timeline</li>
-          <li>Digital Accessibility and Inclusion</li>
-          <li>Fundamental Human Rights</li>
+          <li>Promote understanding of human rights, international treaties and agreements</li>
+          <li>Encourage meaningful discussions on human rights issues</li>
+          <li>Support digital accessibility and inclusivity for all communities</li>
         </ul>
       </section>
 
@@ -34,8 +34,8 @@ function LandingPage() {
         <h2>Explore Key Topics</h2>
         <div className="link-buttons">
           <Link to="/treaties/timeline" className="button">View Treaties Timeline</Link>
-          <Link to="/treaties/accessibility" className="button">Digital Accessibility</Link>
           <Link to="/treaties/rights" className="button">Fundamental Rights</Link>
+          <Link to="/treaties/accessibility" className="button">Digital Accessibility</Link>
         </div>
       </section>
 

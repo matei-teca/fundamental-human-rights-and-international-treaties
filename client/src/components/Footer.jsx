@@ -6,7 +6,7 @@ import './styles/Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Fundamental Human Rights and International Treaties. All Rights Reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Human Rights and International Treaties Society. All Rights Reserved.</p>
       <p>
         Connect with us on social media and stay informed!
       </p>

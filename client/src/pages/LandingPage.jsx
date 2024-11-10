@@ -7,18 +7,12 @@ import './styles/LandingPage.css';
 function LandingPage() {
   return (
     <div className="landing-page">
-      {/* Hero Section */}
-      <section className="hero-section">
-        <h1>Fundamental Human Rights and International Treaties</h1>
-        <p>Advocating for global awareness and education on human rights.</p>
-      </section>
 
       {/* Introduction Section */}
       <section className="intro-section">
         <h2>Welcome to Our Community</h2>
         <p>
-          Our mission is to promote awareness and education on fundamental human rights and international treaties.
-          We believe in the power of knowledge and collective action to uphold and protect these essential rights.
+        Hi, I'm Matei, and I want to share a bit of my researching. And most of all I wish to bring people together. People interested in human rights, international treaties, and a peaceful society.
         </p>
       </section>
 
@@ -26,7 +20,7 @@ function LandingPage() {
       <section className="why-it-matters">
         <h2>Why It Matters</h2>
         <p>
-          Human rights are the cornerstone of a just and equitable society. Understanding treaties and rights is crucial to defending freedom, justice, and peace worldwide.
+          Human rights are the cornerstone of a just and equitable society. A truly humane society. Understanding treaties and rights is crucial to defending freedom, justice, peace and international coopeeration.
         </p>
         <ul>
           <li>International Treaties Timeline</li>

@@ -6,7 +6,7 @@ import { FaSun, FaMoon, FaHome } from 'react-icons/fa';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
-// import AboutPage from './pages/AboutPage';
+import AboutPage from './pages/AboutPage';
 import TreatiesPage from './pages/TreatiesPage';
 import TimelinePage from './pages/secondary featured/TimelineSecondaryPage';
 import AccessibilityPage from './pages/secondary featured/AccessibilitySecondaryPage';
@@ -43,7 +43,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          {/* <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/treaties" element={<TreatiesPage />} />
           {/* <Route path="/resources" element={<ResourcesPage />} /> */}
           <Route path="/join" element={<JoinUsPage />} />

@@ -2,8 +2,10 @@
 
 .treaties-page {
     padding: 20px;
+    padding-inline: 50px;
     margin: 0 auto;
     color: #e0e0e0;
+    animation: fadeIn 1s ease-in-out;
   }
   
   .treaties-page h1 {

@@ -2,6 +2,7 @@
 .landing-page {
   font-family: Arial, sans-serif;
   padding: 20px;
+  padding-inline: 50px;
   color: white;
 }
 

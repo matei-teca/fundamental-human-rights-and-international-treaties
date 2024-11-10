@@ -13,7 +13,7 @@ function AboutPage() {
       <section className="mission-section">
         <h2>Our Mission</h2>
         <p>
-          Our mission is to advocate for global awareness of human rights and educate about the importance of international treaties.
+          Our mission is first of all to connect people. And as well to advocate for global awareness of human rights and about the importance of international treaties.
           We aim to create a knowledgeable community dedicated to understanding, protecting, and advancing fundamental human rights.
         </p>
       </section>
@@ -22,6 +22,7 @@ function AboutPage() {
       <section className="goals-section">
         <h2>Our Goals</h2>
         <ul>
+          <li>Create a community</li>
           <li>Promote understanding of international treaties and agreements</li>
           <li>Encourage meaningful discussions on human rights issues</li>
           <li>Empower individuals to advocate for and defend fundamental rights</li>
@@ -33,8 +34,8 @@ function AboutPage() {
       <section className="community-section">
         <h2>Our Community</h2>
         <p>
-          We are a group of passionate advocates, researchers, and everyday individuals who believe that human rights are the foundation of a fair and just society.
-          Our online community enables members to share insights, discuss pressing issues, and collaborate on projects that advance global human rights.
+          We are a group of passionate, researchers, and everyday individuals who believe that human rights are the foundation of a fair and just society.
+          Our online community enables members to share insights, discuss pressing issues, and collaborate on projects that advance global human rights and international well being.
         </p>
       </section>
     </div>

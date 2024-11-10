@@ -4,6 +4,7 @@
 .join-us-page {
   padding: 20px;
   text-align: center;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .join-us-page h1 {

@@ -1,7 +1,8 @@
 # fundamental-human-rights-and-international-treaties
 
-git clone <br/>
-cd client <br/>
-npm install <br/>
+```bash
+git clone
+cd ./client
+npm install
 npm run dev
-
+```

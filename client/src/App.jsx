@@ -1,7 +1,7 @@
 // src/App.jsx
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaSun, FaMoon, FaHome } from 'react-icons/fa';
 import Header from './components/Header';
 import Footer from './components/Footer';

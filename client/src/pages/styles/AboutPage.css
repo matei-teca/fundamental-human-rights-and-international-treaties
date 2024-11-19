@@ -88,3 +88,17 @@
     100% { opacity: 1; }
   }
   
+
+  @media (max-width: 758px){
+    .about-page {
+      padding-inline: 1rem;
+    }
+
+    .about-page h1 {
+      font-size: 1.75rem;
+    }
+  
+    .about-page h2 {
+      font-size: 1.25rem;
+    }
+  }

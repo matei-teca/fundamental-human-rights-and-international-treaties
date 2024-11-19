@@ -26,3 +26,21 @@
 .nav-links a.active-link {
   border-bottom: 2px solid #87cefa;
 }
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .header .nav-links  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header .nav-links a {
+    max-width: 30%;
+  }
+}

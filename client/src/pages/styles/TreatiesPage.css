@@ -137,3 +137,18 @@
 .link-buttons .button:hover {
   background-color: #87cefa;
 }
+
+@media (max-width: 768px) {
+
+  .treaties-page {
+    padding-inline: 1rem;
+  }
+
+  .treaties-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .treaties-page h2 {
+    font-size: 1.25rem;
+  }
+}

@@ -69,3 +69,17 @@
 .resource-section li a:hover {
   color: #87cefa;
 }
+
+@media (max-width: 758px){
+  .resources-page {
+    padding-inline: 1rem;
+  }
+
+  .resources-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .resources-page h2 {
+    font-size: 1.25rem;
+  }
+}

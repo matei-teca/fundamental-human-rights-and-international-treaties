@@ -53,3 +53,18 @@
   outline: none;
   box-shadow: 0 0 5px #87cefa, 0 0 10px #1e90ff;
 }
+
+@media (max-width: 758px){
+  .join-us-page {
+    padding-inline: 4rem;
+  }
+
+  .join-us-page h1, .join-us-page button {
+    font-size: 1.75rem;
+  }
+
+  .join-us-page a {
+    font-size: 0.95rem;
+  }
+
+}

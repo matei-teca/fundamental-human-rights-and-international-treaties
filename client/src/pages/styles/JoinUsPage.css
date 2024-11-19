@@ -16,6 +16,7 @@
 .join-us-page p {
   font-size: 1.2em;
   line-height: 1.6;
+  margin-top: 40px;
   margin-bottom: 20px;
   max-width: 800px;
   margin-left: auto;
@@ -34,8 +35,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   font-size: 1.3em;
-  margin-top: 20px;
   cursor: pointer;
+  margin-top: 70px;
+  margin-bottom: 0px;
 }
 
 .join-button:hover {

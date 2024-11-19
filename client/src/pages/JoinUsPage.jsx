@@ -19,7 +19,7 @@ function JoinUsPage() {
         rel="noopener noreferrer"
         className="join-button"
       >
-        Join Our Facebook Group
+        Join our Facebook Group
       </a>
     </div>
   );

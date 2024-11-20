@@ -28,10 +28,11 @@ function TreatiesPage() {
       </section>
 
       <section className="treaty-section">
-        <h2>National Constitution Examples</h2>
-        <p>An example from Romania’s 2003 constitution, highlighting Article 20 on international human rights treaties.</p>
+        <h2>National Constitution Example</h2>
+        <p>The Romania’s 2003 constitution, highlighting Article 20 on international human rights treaties.</p>
+        <Link to="/resources">See the highlight here</Link><br/>
         <a href="https://www.ccr.ro/wp-content/uploads/2020/03/Constitutia-2003.pdf" target="_blank" rel="noopener noreferrer">
-          View Document
+          View Full Constitution
         </a>
       </section>
 

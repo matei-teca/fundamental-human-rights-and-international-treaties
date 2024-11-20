@@ -28,7 +28,8 @@ function ResourcesPage() {
           <h2>Constituția României</h2>
           <p><a href="https://www.ccr.ro/wp-content/uploads/2020/03/Constitutia-2003.pdf" target="_blank" rel="noopener noreferrer">Read the Constitution</a></p>
           <blockquote>
-            <p>“Dispoziţiile constituţionale privind drepturile şi libertăţile cetăţenilor vor fi interpretate şi aplicate în concordanţă cu Declaraţia Universală a Drepturilor Omului...”</p>
+            <p>“Dispoziţiile constituţionale privind drepturile şi libertăţile cetăţenilor vor fi interpretate şi aplicate în concordanţă cu Declaraţia Universală a Drepturilor Omului...” (Articolul 20)</p>
+            <p>"The constitutional provisions regarding the rights and freedoms of citizens will be interpreted and applied in accordance with the Universal Declaration of Human Rights..."</p>
           </blockquote>
         </section>
   

@@ -4,6 +4,7 @@
   padding: 1rem;
   padding-inline: 8rem;
   color: white;
+  padding-bottom: 0px;
 }
 
 .intro-section:hover, .why-it-matters:hover, 

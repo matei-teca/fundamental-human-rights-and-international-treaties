@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className="header">
       <h1>Human Rights and International Treaties Society</h1>
-      <p className="tagline">Advocating for Global Human Rights Awareness, International Community and Human Connection.</p>
+      <p className="tagline">Supporting for Global Human Rights Awareness, an International Community and Human Connection.</p>
       <nav className="nav-links">
         <Link to="/" className={isActive('/') ? 'active-link' : ''}>Home</Link>
         <Link to="/about" className={isActive('/about') ? 'active-link' : ''}>About</Link>

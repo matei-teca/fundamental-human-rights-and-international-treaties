@@ -33,6 +33,7 @@
   .mission-section, .goals-section, .community-section {
     background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
     padding: 25px;
+    padding-inline: 150px;
     border-radius: 12px;
     margin-bottom: 40px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
@@ -101,5 +102,10 @@
   
     .about-page h2 {
       font-size: 1.25rem;
+    }
+
+    .mission-section, .goals-section, .community-section {
+      background-color: red;
+      padding-inline: 1.75rem;
     }
   }

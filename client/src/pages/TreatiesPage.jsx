@@ -17,14 +17,6 @@ function TreatiesPage() {
       </section>
 
       <section className="treaty-section">
-        <h2>The Digital Accessibility Needs of Persons with Disabilities</h2>
-        <p>An in-depth look at the digital accessibility rights of people with disabilities, highlighting key points for inclusivity.</p>
-        <a href="https://docs.google.com/document/d/11HwJLheBSIQL5MNboedpxSju9XpAtQgl/edit?usp=sharing&ouid=118353362480069389760&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
-          View Document
-        </a>
-      </section>
-
-      <section className="treaty-section">
         <h2>Fundamental Human Rights</h2>
         <p>Explore foundational documents defining human rights, including declarations and conventions.</p>
         <ul>
@@ -38,7 +30,7 @@ function TreatiesPage() {
       <section className="treaty-section">
         <h2>National Constitution Examples</h2>
         <p>An example from Romania’s 2003 constitution, highlighting Article 20 on international human rights treaties.</p>
-        <a href="https://www.ccr.ro/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.ccr.ro/wp-content/uploads/2020/03/Constitutia-2003.pdf" target="_blank" rel="noopener noreferrer">
           View Document
         </a>
       </section>
@@ -50,6 +42,14 @@ function TreatiesPage() {
           View Document
         </a>
       </section>
+
+      {/* <section className="treaty-section">
+        <h2>A Digital Accessibility Needs of Persons with Disabilities</h2>
+        <p>An in-depth look at the digital accessibility rights and needs of people with disabilities, highlighting key points for inclusivity, as a preliminary study.</p>
+        <a href="https://docs.google.com/document/d/11HwJLheBSIQL5MNboedpxSju9XpAtQgl/edit?usp=sharing&ouid=118353362480069389760&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+          View Document
+        </a>
+      </section> */}
 
       {/* Featured Links Section */}
       <section className="treaties-featured-links">

@@ -20,6 +20,7 @@
 /* General section styling */
 .resource-section {
   padding: 30px;
+  padding-inline: 300px;
   margin: 30px 0;
   background: #1e1e1e;
   border-radius: 8px;
@@ -83,5 +84,9 @@
 
   .resources-page h2 {
     font-size: 1.25rem;
+  }
+
+  .resource-section {
+    padding-inline: 1.25rem;
   }
 }

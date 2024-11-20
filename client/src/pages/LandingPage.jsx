@@ -12,7 +12,7 @@ function LandingPage() {
       <section className="intro-section">
         <h2>Welcome to Our Community</h2>
         <p>
-        Hi, I'm Matei, and I want to share a bit of my researching. And most of all I wish to bring people together. People interested in human rights, international treaties, and a peaceful society.
+        Hi, I'm Matei, and I want to share a bit of researching. And most of all I wish to bring people together. People interested in human rights, international treaties, and a peaceful society.
         </p>
       </section>
 
@@ -40,10 +40,17 @@ function LandingPage() {
         </div>
       </section>
 
+      <section className="featured-links">
+        <h2>Explore our website for the Human Rights and Well Being of Persons with Disabilities</h2>
+        <div className="link-buttons">
+          <a href="https://matei-teca.github.io/human-rights-persons-with-disabilities/#/" target="/blank"><div className="button">View the secondary website</div></a>
+        </div>
+      </section>
+
       {/* Get Involved Section */}
       <section className="get-involved">
         <h2>Get Involved</h2>
-        <p>Join our Facebook group and participate in discussions on human rights issues around the world.</p>
+        <p>Join our Facebook group and participate in meaningful discussions on human rights and solutions, around the world.</p>
         <Link to="/join" className="join-button">Join Us</Link>
       </section>
     </div>

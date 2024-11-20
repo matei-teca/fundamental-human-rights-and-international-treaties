@@ -28,6 +28,7 @@
   .treaty-section {
     background-color: #1a1a1a;
     padding: 15px;
+    padding-inline: 9rem;
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -151,5 +152,13 @@
 
   .treaties-page h2 {
     font-size: 1.25rem;
+  }
+
+  .link-buttons .button {
+    width: 13rem !important;
+  }
+
+  .treaty-section {
+    padding-inline: 3rem;
   }
 }

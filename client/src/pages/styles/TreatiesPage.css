@@ -140,6 +140,12 @@
   background-color: #87cefa;
 }
 
+@media (max-width: 1100px){
+  .treaties-page section {
+    padding-inline: 3rem;
+  }
+}
+
 @media (max-width: 768px) {
 
   .treaties-page {

@@ -91,3 +91,8 @@
   }
 }
 
+@media (max-width: 1700px){
+  .resources-page section {
+    padding-inline: 3rem;
+  }
+}
